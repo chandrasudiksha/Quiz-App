@@ -1,0 +1,24 @@
+document.getElementById("w1").addEventListener("click",function(){
+    document.getElementById("w2").style.backgroundColor="#f9f9f9";
+    document.getElementById("w3").style.backgroundColor="#f9f9f9";
+    document.getElementById("c").style.backgroundColor="#f9f9f9";
+    document.getElementById("w1").style.backgroundColor="red";
+});
+document.getElementById("w2").addEventListener("click",function(){
+    document.getElementById("w1").style.backgroundColor="#f9f9f9";
+    document.getElementById("w3").style.backgroundColor="#f9f9f9";
+    document.getElementById("c").style.backgroundColor="#f9f9f9";
+    document.getElementById("w2").style.backgroundColor="red";
+});
+document.getElementById("w3").addEventListener("click",function(){
+    document.getElementById("w1").style.backgroundColor="#f9f9f9";
+    document.getElementById("w2").style.backgroundColor="#f9f9f9";
+    document.getElementById("c").style.backgroundColor="#f9f9f9";
+    document.getElementById("w3").style.backgroundColor="red";
+});
+document.getElementById("c").addEventListener("click",function(){
+    document.getElementById("w2").style.backgroundColor="#f9f9f9";
+    document.getElementById("w3").style.backgroundColor="#f9f9f9";
+    document.getElementById("w1").style.backgroundColor="#f9f9f9";
+    document.getElementById("c").style.backgroundColor="green";
+});
